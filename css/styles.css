@@ -63,7 +63,10 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: #000000;
+}
+.element-style{
+ color: var(--accent-color);   
 }
 .header-item{
 color: var(--title-text-color);
@@ -75,8 +78,8 @@ color: var(--title-text-color);
 .header-tel{
 color: var(--primary-text-color);
 }
-.header-item .header-mail .header-tel:hover,
-.header-item .header-mail .header-tel:focus{
+.header-item-mail-tel:hover,
+.header-item-mail-tel:focus{
     color: var(--accent-color);
 }
 
@@ -104,11 +107,13 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--second-text-color);
+background-color:#188CE8;
 }
 
 .head-btn:hover,
 .head-btn:focus{
-    color:#188CE8;
+    background-color:var(--primary-bg-color);
+    color: var(--title-text-color);
 }
 
 /* ---------Section-------------- */
@@ -136,6 +141,9 @@ color: var(--title-text-color);
 }
 
 /* ----------------Team------------ */
+.team{
+    background-color: #F5F4FA;
+}
 
 .team-title{  
 color: var(--title-text-color);   
@@ -158,11 +166,16 @@ color: var(--primary-text-color);
 }
 
 /*---------------Footer------------- */
+
 .footer{
 background-color: var(--second-bg-color);
 }
+.footer-item{
+    font-style: normal;
+}
 .footer-adress{
-color: #FFFFFF;
+color: rgba(255, 255, 255, 0.6);
+
 }
 .footer-mail{
 color: rgba(255, 255, 255, 0.6);
@@ -170,21 +183,26 @@ color: rgba(255, 255, 255, 0.6);
 .footer-tel{
 color: rgba(255, 255, 255, 0.6);
 }
-/*-----------------Portfolio---------------*/
+.footer-mail-tel-adress:hover,
+.footer-mail-tel-adress:focus{
+    color: var(--second-text-color);
 
-.section-btn{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
+/*-----------------Portfolio---------------*/
+.section-nav-btn{
+    Font style: Medium
+    Font size: 16px
+    Line height: 26px
+    Line height: 139%
+    Align: Center
+    Vertical align: Top
+    Letter spacing: 3%
 color: var(--title-text-color);
 background-color: #F5F4FA;
 }
-.section-btn:hover,
-.section-btn:focus{
+.section-nav-btn:hover,
+.section-nav-btn:focus{
+    background-color:var(--accent-color);
     color: var(--second-text-color);
-    background-color: var(--accent-color);
 }
 
 /*----------------Portfolio-projects-------------*/

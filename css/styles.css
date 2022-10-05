@@ -183,12 +183,14 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--second-text-color);
 }
+.element-style-footer{
+    color: var(--accent-color);
+}
 .footer-item{
     font-style: normal;
 }
 .footer-adress{
 color: var(--second-text-color);
-
 }
 .footer-mail{
 color: rgba(255, 255, 255, 0.6);
